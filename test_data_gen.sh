@@ -39,9 +39,9 @@ create_random_files_and_dirs() {
 
 # Main script
 BASE_DIR="./test_data"
-NUM_DIRS=40
-NUM_FILES=900
-DEPTH=4
+NUM_DIRS=50
+NUM_FILES=10000
+DEPTH=10
 SEED="fixed_seed"
 
 # Create base directory if it doesn't exist
