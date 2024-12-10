@@ -14,6 +14,14 @@ Fast Delete is a Rust-based command-line tool designed to be a faster alternativ
 
 ## Installation
 
+#### from crate.io
+
+```bash
+cargo install fast_delete
+```
+
+#### from source
+
 To build and install Fast Delete, ensure you have Rust and Cargo installed, then run:
 
 ```bash
@@ -25,7 +33,7 @@ The compiled binary will be located in the `target/release` directory.
 ## Usage
 
 ```bash
-./target/release/frm <directory>
+frm <directory>
 ```
 
 - `<directory>`: The path to the directory you want to delete.
@@ -33,7 +41,7 @@ The compiled binary will be located in the `target/release` directory.
 ## Example
 
 ```bash
-./target/release/frm ../demo
+frm ../demo
 ```
 
 This command will delete all files in `../demo`.

@@ -1,7 +1,7 @@
 [package]
 name = "fast_delete"
 description = "Faster file deletion written in Rust, alternative to rm"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2021"
 authors = ["Himanshu <hyattherate2005@gmail.com>"]
 homepage = "https://github.com/Himasnhu-AT/frm/blob/master/Readme.md"
