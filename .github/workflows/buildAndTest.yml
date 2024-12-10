@@ -2,23 +2,23 @@ name: Build and Test
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["master"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["master"]
+  workflow_dispatch:
 
 env:
   CARGO_TERM_COLOR: always
 
 jobs:
   build-and-test:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
-    
-    - name: Build
-      run: cargo build
-      
-    - name: Run tests
-      run: cargo test
+      - uses: actions/checkout@v4
+
+      - name: Build
+        run: cargo build
+
+      - name: Run tests
+        run: cargo test

@@ -1,6 +1,6 @@
 # Fast Delete (frm)
 
-[![Latest Version](https://img.shields.io/crates/v/frm.svg)](https://crates.io/crates/frm)
+[![Latest Version](https://img.shields.io/crates/v/fast_delete.svg)](https://crates.io/crates/fast_delete)
 [![Build Status](https://github.com/himasnhu-at/frm/actions/workflows/buildAndTest.yml/badge.svg)](https://github.com/himasnhu-at/frm/actions/workflows/buildAndTest.yml)
 [![License](https://img.shields.io/badge/license-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
