@@ -21,7 +21,7 @@ The compiled binary will be located in the `target/release` directory.
 ## Usage
 
 ```bash
-cargo run --release -- <directory>
+./target/release/frm <directory>
 ```
 
 - `<directory>`: The path to the directory you want to delete.
@@ -29,7 +29,7 @@ cargo run --release -- <directory>
 ## Example
 
 ```bash
-cargo run --release -- ../demo
+./target/release/frm ../demo
 ```
 
 This command will delete all files in `../demo`.

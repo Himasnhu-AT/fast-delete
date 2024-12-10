@@ -8,3 +8,7 @@ walkdir = "2.4"
 rayon = "1.8"
 indicatif = "0.17"
 num_cpus = "1.16.0"
+
+[[bin]]
+name = "frm"
+path = "src/main.rs"
