@@ -1,7 +1,15 @@
 [package]
-name = "fast-delete"
+name = "frm"
+description = "Faster file deletion written in Rust, alternative to rm"
 version = "0.1.0"
 edition = "2021"
+authors = ["Himanshu <hyattherate2005@gmail.com>"]
+homepage = "https://github.com/Himasnhu-AT/frm/blob/master/Readme.md"
+readme = "Readme.md"
+repository = "https://github.com/Himasnhu-AT/frm.git"
+keywords = ["linux", "dev-tool", "cli", "file-deletion"]
+categories = ["Command-line utilities", "Filesystem", "Utilities"]
+license-file = "LICENSE"
 
 [dependencies]
 walkdir = "2.4"

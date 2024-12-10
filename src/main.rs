@@ -1,4 +1,4 @@
-use fast_delete::thread_pool::{Message, ThreadPool};
+use frm::thread_pool::{Message, ThreadPool};
 use indicatif::{ProgressBar, ProgressStyle};
 use std::path::Path;
 use std::sync::{Arc, Mutex};

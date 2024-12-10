@@ -1,5 +1,9 @@
 # Fast Delete
 
+[![Latest Version](https://img.shields.io/crates/v/frm.svg)](https://crates.io/crates/frm)
+[![Build Status](https://github.com/himasnhu-at/frm/actions/workflows/buildAndTest.yml/badge.svg)](https://github.com/himasnhu-at/frm/actions/workflows/buildAndTest.yml)
+[![License](https://img.shields.io/badge/license-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+
 Fast Delete is a Rust-based command-line tool designed to be a faster alternative to the traditional `rm -rf` command. It leverages multithreading to efficiently delete files and directories.
 
 ## Features
