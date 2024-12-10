@@ -34,6 +34,37 @@ The compiled binary will be located in the `target/release` directory.
 
 This command will delete all files in `../demo`.
 
+## Performance
+
+Fast Delete has been benchmarked against the traditional `rm -rf` command. The results show that `frm` is slightly faster:
+
+| Command | Time (s) |
+| ------- | -------- |
+| rm -rf  | 0m0.285s |
+| frm     | 0m0.276s |
+
+Additionally, here is a detailed summary of a deletion operation performed by `frm`:
+
+```
+Deletion Summary:
+Files processed: 1687/1687
+Directories removed: 9
+Time taken: 267.32ms
+Average speed: 6310.73 files/second
+```
+
+These results demonstrate that `frm` can handle large directories efficiently, making it a valuable tool for users who need to delete files and directories quickly.
+
+## Documentation
+
+To generate and open the documentation for Fast Delete, run the following command:
+
+```bash
+cargo doc --open --release
+```
+
+This will build the documentation and open it in your default web browser.
+
 ## Dependencies
 
 - [walkdir](https://crates.io/crates/walkdir): For directory traversal.
@@ -43,7 +74,7 @@ This command will delete all files in `../demo`.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the BSD 3-Clause License.
 
 ## Contributing
 
