@@ -1,4 +1,4 @@
-# Fast Delete
+# Fast Delete (frm)
 
 [![Latest Version](https://img.shields.io/crates/v/frm.svg)](https://crates.io/crates/frm)
 [![Build Status](https://github.com/himasnhu-at/frm/actions/workflows/buildAndTest.yml/badge.svg)](https://github.com/himasnhu-at/frm/actions/workflows/buildAndTest.yml)
